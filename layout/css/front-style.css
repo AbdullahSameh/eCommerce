@@ -1,0 +1,223 @@
+/* Start Gloabl */
+
+body {
+	background-color: #f4f4f4;
+}
+h1 {
+	font-size: 50px;
+	margin: 50px; 
+	color: #666;
+}
+.page-message {
+	margin-top: 150px;
+	margin-bottom: 25px;
+    padding: 25px;
+    background-color: #eee;
+    font-size: 50px;
+    color: #721c24;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #ddd;
+}
+.price-box {
+	position: absolute;
+    background-color: rgba(96, 170, 224, 0.5);
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+.item-date {
+	color: #928c8c;
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+}
+.item-link:hover {
+	text-decoration: none;
+}
+/* End Gloabl */
+/* Start Navbar Edit*/
+.upper-bar {
+	display: flex;
+}
+.navbar{ padding: 0; }
+
+.navbar-brand { 
+	font-size: 1rem;
+	margin: 0;
+	padding: 1rem .5rem;
+}
+.navbar-nav .nav-link {
+	padding: 1rem .5rem;
+}
+.navbar .navbar-nav .open > a { padding-left: 1rem;  transition: all .3s ease-in-out;}
+
+.navbar .navbar-nav .open > a:focus,
+.navbar .navbar-nav .open > a:hover,
+.navbar-nav .dropdown-menu {
+	color: #fff;
+	background-color: #007bff;	
+}
+.navbar-nav .dropdown-menu {
+	margin: 0;
+	padding: 0;
+	right: 0;
+	left: unset;
+}
+.navbar-nav .dropdown-item {
+	color: #fff;
+	transition: all .2s ease-in-out;
+}
+.navbar-nav .dropdown-item:focus,
+.navbar-nav .dropdown-item:hover {
+	color: #333;
+	background-color: #c1d4e8;
+	padding-left: 32px;
+}
+/* End Navbar Edit*/
+/* Start Login Edit*/
+.login-card {
+	margin: 120px auto 20px auto;
+	box-shadow: 2px 2px 3px 0 hsla(205,5%,48%,.12);
+	max-width: 620px;
+	border: 1px solid #dbe2e8;
+}
+.login-card .login-head {
+	display: flex;
+}
+.login-card .login-head > div:last-child {
+	border-left: 1px solid #dbe2e8;
+}
+.login-card .login-head > div {
+	flex: auto;
+	padding: 20px;
+	font-size: 20px;
+	cursor: pointer;
+	background: #fafbfc;
+	border-bottom: 1px solid #dbe2e8;
+	font-weight: 600;
+	color: #7d97ad;
+}
+.login-card .login-head .selected {
+	background: #fff;
+	border-bottom: none;
+	color: #2e3d49;
+}
+.login-card .login-body {
+	background-color: #fff;
+	padding: 60px;
+}
+.login-card .login-body h4 {
+	margin-bottom: 30px;
+    color: #2e3d49;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.login-card .login-body .signup {
+	display: none;
+}
+.login-card .login-body input {
+	margin: 0 auto 15px auto;
+	max-width: 320px;
+}
+.login-card .login-body input[type="submit"] {
+	max-width: 185px;
+}
+/* End Login Edit*/
+/* Start Profile Edit*/
+.profile {
+	margin-bottom: 25px;
+}
+.profile .box {
+	border: 1px solid #007bff;
+}
+.profile .box .card-header { color: #fff; }
+
+.profile .box .pro-box li {
+	padding: 8px;
+}
+.profile .box .pro-box li:nth-child(odd) {
+	background-color: #e9e9e9
+}
+.profile .box .pro-box li span {
+	display: inline-block;
+	width: 155px;
+}
+.profile .box .pro-img {
+	width: 100%;
+}
+.profile .box .accept {
+	position: absolute;
+    right: 0;
+    background-color: rgba(228, 19, 19, 0.5);
+    padding: 4px 8px;
+    color: #fff;
+}
+ .ad {margin-bottom: 25px;}
+ .ad h4 {
+	font-size: 1.325rem;
+} 
+
+ .ad p {
+	margin-bottom: 0;
+    font-size: 14px;
+    height: 45px;
+    max-height: 45px;
+    overflow: hidden;
+}
+/* End Profile Edit*/
+/* Start Create Item Edit*/
+.item-info ul li {
+	padding: 8px;
+	font-weight: 500;
+}
+.item-info ul li:nth-child(odd) {
+	background-color: #e9e9e9
+}
+.item-info ul li span {
+	display: inline-block;
+	width: 155px;
+}
+.add-comment {
+	margin: 15px 0;
+}
+.add-comment textarea {
+ 	width: 100%;
+    border-radius: 3px;
+    margin: 10px 0;
+    height: 120px;
+}
+.add-comment input {
+	display: block;
+}
+.comment img {
+	width: 100px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+.comment .com-box {
+	background-color: #ddd;
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+    height: 90%;
+    word-wrap: break-word;
+    border-radius: 5px;
+
+}
+.comment .com-box:before {
+	content: '';
+	position: absolute;
+	height: 0;
+    width: 0;
+    border-width: 26px;
+    border-style: solid;
+    border-color: #ddd #ddd transparent transparent;
+    left: -52px;
+    top: 56px;
+}
+.comment p {
+	font-size: 1.325rem;
+    font-weight: 400;
+}
+/* End Create Item Edit*/
